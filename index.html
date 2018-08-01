@@ -8,12 +8,19 @@
     <title>Porfolio</title>
 </head>
 <body>
+	<!--	The navigation bar which is outside the main container	-->
 	<nav class="navbar">
+		
+	<!--	A container for the navbrand	-->
 		<div class="container px-0 mx-auto">
-			 
+			<!--	The nav brand	 -->
 			<div class="navbar-header navbar-brand col-xs-12 col-md-2 text-center">samiBoleyn</div>
 		
-			<ul class="nav navbar-nav navbar-expand list-inline col-xs-12 col-md-4 col-lg-3 px-0">
+			<!--	navigation list (ul)		-->
+			<ul class="nav navbar-nav navbar-expand list-inline col-xs-12 col-md-4 col-lg-3 px-0 text-center text-md-right ">
+				
+<!--	I could not put the text-center and text-md-right classes on ul and have them work properly so a container was added around the list items with these classes			-->
+				
 				<div class="container text-center text-md-right ">
 					<li class="list-inline-item nav-item"><a href="index.html">About</a></li>
 					<li class="list-inline-item nav-item"><a href="portfolio.html">Portfolio</a></li>
@@ -24,23 +31,26 @@
 		</div>
 	</nav>
 	
+	<!--	About me is a row -->
     <div class="container mt-5">
         <div class="row contentHeader">
             <div class="col-xs-12 col-md-4">
 				<h1>About Me</h1>
 			</div>
 		</div>
-		
+	
+	<!--	A row for the profile image and text	-->
 		<div class="row contentMain">
 			<div class="col-xs-12 col-md-5 cl-lg-4">
 				<div class= "mx-auto text-center">
+	<!--		The profile image			-->
 					<img class= "img-responsive" src="assets/images/profile8.jpg">
 				</div>
 			</div>
 			
 			
-			
-			<div class="col-sm-12 col-md-7">
+	<!--	The text besides the profile image	-->
+			<div class="col-sm-12 col-md-7 ml-xl-5">
 				<p>I've earned a Baccalaureate of Information Science and Technology from the University of Arizona. When I'm not studying web development and creating beautifully-styled and dynamic web pages, I'm working with Microsoft as a Solutions Associate. </p>
 
 				<p>I'm passionate about my current studies, current and future side projects and everything web development, UI and UX. Check out my work, visit me on GitHub or LinkedIn, or use the contact form to start a conversation.</p>
@@ -48,6 +58,7 @@
         </div>
     </div>
 	
+	<!--	the footer which also has a class footer	-->
 	<footer class="footer mt-5">
 		<div class="container text-center">
 			<span>Copyright&copy;</span>
