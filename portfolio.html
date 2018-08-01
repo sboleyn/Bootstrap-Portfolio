@@ -5,9 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>My Work</title>
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <title>Porfolio</title>
 </head>
 <body>
-    
+	<!--	The navigation bar which is outside the main container	-->
+	<nav class="navbar">
+		
+	<!--	A container for the navbrand	-->
+		<div class="container px-0 mx-auto">
+			<!--	The nav brand	 -->
+			<div class="navbar-header navbar-brand col-xs-12 col-md-2 text-center">samiBoleyn</div>
+		
+			<!--	navigation list (ul)		-->
+			<ul class="nav navbar-nav navbar-expand list-inline col-xs-12 col-md-4 col-lg-3 px-0 text-center text-md-right ">
+				
+<!--	I could not put the text-center and text-md-right classes on ul and have them work properly so a container was added around the list items with these classes			-->
+				
+				<div class="container text-center text-md-right ">
+					<li class="list-inline-item nav-item"><a href="index.html">About</a></li>
+					<li class="list-inline-item nav-item"><a href="portfolio.html">Portfolio</a></li>
+					<li class="list-inline-item nav-item"><a href="contact.html">Contact</a></li>
+				</div>
+			</ul>
+
+		</div>
+	</nav>
+	
+	
+    <div class="container mt-5">
+		
+		<!--	"Portfolio" is in it's own row -->
+        <div class="row contentHeader">
+            <div class="col-xs-12 col-md-4">
+				<h1>Portfolio</h1>
+			</div>
+		</div>
+	
+	<!--	A row for the profile image and text	-->
+		<div class="row contentMain">
+			
+        </div>
+    </div>
+	
+	<!--	the footer which also has a class footer; is outside the container	-->
+	<footer class="footer mt-5">
+		<div class="container text-center">
+			<span>Copyright&copy;</span>
+		</div>
+	</footer>
+	
 </body>
 </html>
