@@ -4,6 +4,41 @@ html{
 	min-height: 100%;
 }
 
+body{
+	background: url(../images/hello_background3.jpg);
+}
+
+.navbar{
+    background-color: rgba(236,151,193,0.6); 
+    border-style: outset;
+    border-width: 0px 0px 5px 0px;
+    border-radius: 5px;
+    border-color: rgba(8, 9, 10, 0.274);
+    padding-bottom: 0px;
+	color: #f4faff;
+}
+
+.navbar-header{
+	background-color: rgb(236,151,193);
+	height: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+.nav-item{
+	display: inline;
+    font-size: 20px;
+}
+
+.mainContent{
+	background-color: rgba(8,9,10, 0.4);
+}
+
 .footer{
 	position: absolute;
 	bottom: 0;
