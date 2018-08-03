@@ -23,6 +23,16 @@ body{
 .navbar-header{
 	background-color: rgb(236,151,193);
 	height: 100%;
+	max-width: 100%;
+}
+
+i{
+	font-size: 50px;
+}
+
+i.fas h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
 }
 
 ul{
@@ -31,6 +41,8 @@ ul{
 
 a{
 	color: #F4FAFF;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1em;
 }
 
 .nav-item{
@@ -39,7 +51,7 @@ a{
 }
 
 .mainContent{
-	background-color: rgba(8,9,10, 0.99);
+	background-color: rgba(8,9,10, 0.4);
 	color: #f4faff;
 }
 
@@ -49,6 +61,24 @@ hr{
 	margin-bottom: 10px;
     height: 5px;
     background-color: #f4faff;
+}
+
+#introLineText{
+    font-family: 'Asap', sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    font-style: imageddditalic;
+}
+
+
+label {
+	font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    padding: 2px;
+}
+
+button{
+	font-family: 'Asap', sans-serif;
 }
 
 .footer{
@@ -62,6 +92,7 @@ hr{
 	border-width: 5px 0px 0px 0px;
 	border-color: rgb(124,198,254);	
 	border-style: solid;
+	font-family: 
 }
 
 
@@ -100,4 +131,8 @@ hr{
     transform: translate(-50%, -50%);
 	width: 100%;
 	text-align: center;
+}
+
+.mainContent{
+	font-family: 'PT Sans', sans-serif;
 }
