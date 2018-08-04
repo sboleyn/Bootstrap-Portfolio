@@ -33,6 +33,11 @@ i{
 i.fas h1 {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1em;
+	font-weight: bold;
+}
+
+h1.mt-3{
+	font-weight: bold;
 }
 
 ul{
@@ -55,6 +60,16 @@ a{
 	color: #f4faff;
 }
 
+.blueHighlite{
+    background-color: rgb(124,198,254);
+    background-color: rgba(124,198,254,0.95);
+}
+
+.pinkHighlite{
+    background-color: rgb(236,151,193);
+    background-color: rgba(236,151,193,0.8);
+}
+
 hr{
     width: 95%;
 	margin: auto;
@@ -74,11 +89,24 @@ hr{
 label {
 	font-family: 'PT Sans', sans-serif;
     font-size: 18px;
-    padding: 2px;
 }
 
-button{
+.btn-primary{
 	font-family: 'Asap', sans-serif;
+	border-color: rgb(124,198,254);	
+	color: rgba(8,9,10);
+	background-color: #f4faff;
+}
+
+.btn-primary:hover{
+	background-color: rgb(124,198,254);
+}
+
+span.round{
+	border-radius: 3px;
+	padding: 5px;
+	color: rgba(8,9,10);
+	font-weight: bold;
 }
 
 .footer{
@@ -92,13 +120,12 @@ button{
 	border-width: 5px 0px 0px 0px;
 	border-color: rgb(124,198,254);	
 	border-style: solid;
-	font-family: 
 }
 
 
 .profileImg{
 	width: 145px;
-/*	border-radius: 50px;*/
+	margin-bottom: 5px;
 }
 
 .myWorkImg{
@@ -131,8 +158,21 @@ button{
     transform: translate(-50%, -50%);
 	width: 100%;
 	text-align: center;
+	background-color: rgba(236,151,193,0.6);
+	padding: 10px 0px;
+	color: rgba(8,9,10);
+	font-weight: bold;
 }
 
 .mainContent{
 	font-family: 'PT Sans', sans-serif;
+	margin-bottom: 25px;
+}
+
+.mainFont{
+	font-size: 20px;
+}
+
+.test{
+	max-width: 765px;
 }
