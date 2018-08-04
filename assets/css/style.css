@@ -7,7 +7,7 @@ html{
 body{
 	background: url(../images/hello_background3.jpg);
 	background-size: 100% auto;
-	background-size: cover;
+/*	background-size: cover;*/
 }
 
 .navbar{
