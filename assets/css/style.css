@@ -94,7 +94,7 @@ label {
 .btn-primary{
 	font-family: 'Asap', sans-serif;
 	border-color: rgb(124,198,254);	
-	color: rgba(8,9,10);
+	color: rgb(8,9,10);
 	background-color: #f4faff;
 }
 
@@ -105,7 +105,7 @@ label {
 span.round{
 	border-radius: 3px;
 	padding: 5px;
-	color: rgba(8,9,10);
+	color: rgb(8,9,10);
 	font-weight: bold;
 }
 
@@ -160,7 +160,7 @@ span.round{
 	text-align: center;
 	background-color: rgba(236,151,193,0.6);
 	padding: 10px 0px;
-	color: rgba(8,9,10);
+	color: rgb(8,9,10);
 	font-weight: bold;
 }
 
